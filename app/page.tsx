@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HomePage from "./homePage/page";
 import Working from "./components/How";
 import WhyUs from "./components/Why";
