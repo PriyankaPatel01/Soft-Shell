@@ -20,8 +20,8 @@ const Working = () => {
         <div className="card">
           <Image src="/get.jpg" height={70} width={70} layout='responsive' alt="done"/>
             <h2>Get	Paid</h2>
-            <p>Whether you're a freelancer, content creator, or online seller</p>
-            &apos;
+            <p>Whether you&apos;re a freelancer, content creator, or online seller</p>
+            
         </div>
       </div>
     </div>
