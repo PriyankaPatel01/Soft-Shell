@@ -1,0 +1,233 @@
+body
+{
+    height: 100vh;
+    padding: 1rem;
+    background-color: #FCC737;
+}
+
+.work h1
+{
+    text-align: center;
+    color: rgb(94, 93, 93);
+    text-decoration: underline;
+}
+
+.why h1
+{
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+    text-decoration: underline;
+}
+.col
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30vh;
+}
+
+.col .card
+{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 20px;
+    width: 200px;
+    border: 2px black solid;
+    background-color: #FBF3B9;
+    box-shadow: 10px 10px grey;
+}
+
+.card h2 
+{
+    color: #000;
+
+}
+
+.card p
+{
+    color: rgb(91, 114, 91);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.contact-info h1
+{
+    margin-top: 100px;
+    text-decoration: underline;
+    text-align: center;
+    color: #5a5a5a;
+}
+
+.form-container
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color:rgba(255, 71, 178, 0.5);
+    border-radius: 10px;
+    margin-left: 150px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+.form-container .info
+{
+    padding: 30px;
+    width: 50%;
+    color: #5a5a5a;
+
+}
+.form-container .info h2
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+.form-container .info p
+{
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.form-container .contact
+{
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 30px;
+    width: 25%;
+    background-color:rgba(247, 221, 236, 0.5);
+    color: #5a5a5a;
+}
+
+.form-container .contact input, textarea
+{
+    width: 90%;
+}
+
+.form-container .contact button
+{
+    background-color: rgb(42, 131, 131);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 70px;
+    
+}
+
+
+
+/* Review page css */
+
+.reviews h1
+{
+    text-align: center;
+    color: rgb(94, 93, 93);
+    text-decoration: underline;
+    margin-top: 80px;
+}
+
+.contain
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+.container
+{
+    border-radius: 10px;
+    border: 1px black solid;
+    width: 40vw;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px grey;
+}
+
+.container h3
+{
+    padding-left: 80px;
+    color: black;
+}
+
+.container p
+{
+    color: #5a5a5a;
+    
+}
+
+.img
+{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 600px) 
+{
+    body
+    {
+        position: relative;
+        overflow-x: hidden;
+
+    }
+    
+    .col 
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .card
+    {
+        margin-left: 20px;
+    }
+    .card:hover 
+    {
+        transform: scale(1);
+    }
+
+
+    .form-container
+    {
+        background-color: #FCC737;
+    }
+
+    .form-container .info
+    {
+        display: none;
+    }
+
+   .form-container .contact
+   {
+        margin-left: -120px;
+        width: max-content;
+   }
+   .form-container .contact button
+   {
+     margin-left: 45px;
+   }
+
+   .reviews h1
+   {
+    font-size: 25px;
+    text-align: center;
+   }
+
+
+   .contain
+   {
+     display: flex;
+     flex-direction: column;
+   }
+    
+}
